@@ -1,0 +1,5 @@
+# 忽略 CMake 的构建目录
+build/
+
+# 忽略 VS Code 的本地配置（可选）
+.vscode/
