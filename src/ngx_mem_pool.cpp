@@ -147,7 +147,7 @@
     {
         ngx_pool_s      *p;
         ngx_pool_large_s *l;
-        for(l=p->large;l;l=l->next){
+        for(l=pool->large;l;l=l->next){
             if(l->alloc){
                 free(l->alloc);
             }

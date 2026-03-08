@@ -56,7 +56,7 @@ int main()
     c2->handler = func2;
     c2->data = p2->pfile;
 
-    //代码逻辑可以直接是现在mempool的析构中
+    //代码逻辑可以直接实现在mempool的析构中
     mempool.ngx_destroy_pool(); // 1.调用所有的预置的清理函数 2.释放大块内存 3.释放小块内存池所有内存
 
     return 0;
