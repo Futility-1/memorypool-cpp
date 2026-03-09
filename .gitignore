@@ -2,4 +2,4 @@
 build/
 
 # 忽略 VS Code 的本地配置（可选）
-.vscode/
+.vscode/.cache/

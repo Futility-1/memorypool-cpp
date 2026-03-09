@@ -1,6 +1,9 @@
+#ifndef NGX_MEM_POOL_H
+#define NGX_MEM_POOL_H
+
 #include <cstddef>
 #include <cstdint>
-#include<memory.h>
+#include <cstring>
 //类型前置声明
 struct ngx_pool_s;
 //类型重定义
@@ -94,3 +97,5 @@ private:
     //分配新的小块内存池
     void *ngx_palloc_block(size_t size);
 };
+
+#endif // NGX_MEM_POOL_H

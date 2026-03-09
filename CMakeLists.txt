@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.10)
 
 # 2. 给你的工程起个名字，并指定使用 C++ (CXX)
 project(NginxMemoryPool CXX)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 # 3. 核心魔法：告诉编译器去哪个文件夹找“菜单”（头文件）
 include_directories(include)

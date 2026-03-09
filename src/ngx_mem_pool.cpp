@@ -1,5 +1,4 @@
 #include "ngx_mem_pool.h"
-#include<iostream>
 #include<cstdlib>
 //创建指定size大小的内存池，但是小块内存池不超过一个页面的大小
     void* ngx_mem_pool::ngx_create_pool(size_t size)
